@@ -64,6 +64,7 @@ a {
 .hero-wrap {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     position: relative;
     background: #e6f0ff;
     height: calc(100vh - 89px);
@@ -107,22 +108,18 @@ a {
     border-radius: 8px;
 }
 
-.hero {
-    margin-top: 130px;
-}
-
-.hero .info {
+.hero-wrap .info {
     width: 51%;
 }
 
-.hero .sub-title {
+.hero-wrap .sub-title {
     color: #687690;
     font-size: 1.8rem;
     font-weight: 500;
     letter-spacing: 0.18px;
 }
 
-.hero .title {
+.hero-wrap .title {
     margin-top: 8px;
     color: var(--primary-color);
     font-size: 6.4rem;
@@ -130,7 +127,7 @@ a {
     line-height: 1.19;
 }
 
-.hero .desc {
+.hero-wrap .desc {
     margin-top: 30px;
     color: #5a6473;
     font-size: 1.8rem;
@@ -144,6 +141,7 @@ a {
 }
 
 .hero-img {
+    height: 584px;
     position: absolute;
     right: calc((100vw - 1110px) / 2 - 100px);
     bottom: 0;
